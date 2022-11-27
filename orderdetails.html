@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            table {
+                width: 40%;
+                height:80%;
+                font-size:25px;
+                margin:0px 50px;
+            }
+            .det{
+                width:100%;
+                height:100%;
+                margin: 5px 0px;
+                padding:15px ;
+            }
+        </style>
+    </head>
+    <body style="width: 100%;">
+        <h1>PERSONAL DETAILS</h1>
+        <div><form>
+           <table style="align:left">
+            <tr><td>
+            <label style="color:red">NAME:</label></td><td><input type="text" id="a" name="det" placeholder="enter name"/><br></td></tr>
+            <tr><td><label style="color:red">EMAIL:</label></td><td><input type="text" id="b" name="det" placeholder="enter email"/><br></td></tr>
+            <tr><td><label style="color:red">PHONE NUMBER:</label></td><td><input type="text" id="c" name="det"/><br></td></tr>
+            <tr><td><label style="color:red">STATE:</label></td><td><input type="text" id="d" name="det"/><br></td></tr>
+            <tr><td><label style="color:red">ADRESS:</label></td><td><input type="textarea" id="e" name="det" placeholder="enter adress"/><br></td></tr>
+            <tr><td><label style="color:red">PIN CODE:</label></td><td><input type="text" id="f" name="det"/><br></td></tr>
+        <tr><td><h5>MODE OF PAYMENT</h5></td></tr>
+        <tr><td><input type="radio" name="mp" style="font-size:10px;" value="online">online payment</input><br></td></tr>
+        <tr><td><input type="radio" name="mp" style="font-size:10px;" value="cash">cash on delivery</input><br></td></tr>
+        <tr><td><input type="radio" name="mp" style="font-size:10px;" value="net banking">net banking</input></td></tr>
+        <tr><td><label><h5>QUANTITY</h5></label></td></tr>
+        <tr><td><input  type="radio" name="qu" style="font-size:10px;" value="1">1</input><br></td></tr>
+        <tr><td><input  type="radio" name="qu" style="font-size:10px;" value="2">2</input><br></td></tr>
+        <tr><td><input  type="radio" name="qu" style="font-size:10px;" value="3">3</input><br></td></tr>
+        <tr><td><input  type="radio" name="qu" style="font-size:10px;" value="4">4</input><br></td></tr>
+        <tr><td><a href="thank.html"><input type="button" onclick="check()" style="background-color:rgb(173, 161, 169);" value="order" id="qu"/></a></td>
+        <td><a href="index.html"><input type="button" id="qu" value="cancel" style="background-color:rgb(173, 161, 169);"/></a></td></tr>
+        </table>
+        </form></div>
+    </body>
+</html>
